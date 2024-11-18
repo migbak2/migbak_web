@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import {paths} from 'src/constants/path'
-import Login from "src/hooks/auth/google";
+import Login from "src/page/auth/login";
 import SignUp from "src/page/auth/signup";
 
 const Router = () => {
